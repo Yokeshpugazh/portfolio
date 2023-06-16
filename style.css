@@ -324,6 +324,12 @@ form input,form textarea{
         margin-top: 99px;
         font-size: 41px;
     }
+    .web {
+        font-size: 15px;
+        font-weight: 600;
+        position: relative;
+        top: 78px;
+    }
 
     #header{
         background-position: 77%;
@@ -350,6 +356,19 @@ form input,form textarea{
         height: 150px;
         border-radius: 8px;
     }
+    .chead {
+        font-size: 22px;
+    }
+    .left p {
+        width: 154%;
+    }
+    .social-icons {
+        width: 129%;
+    }
+    form input, form textarea {
+        width: 161%;
+    }
+    
 }
 
 /* ---------600px------- */
@@ -374,6 +393,21 @@ form input,form textarea{
     }
     .work img {
         width: 100%;
+    }
+    .right {
+        flex-basis: 35%;
+    }
+    .left p {
+        width: 130%;
+    }
+    .social-icons {
+        width: 114%;
+    }
+    form input, form textarea {
+        width: 167%;
+    }
+    .about-col1 img {
+        margin-left: 100%;
     }
 }
 /* ---------------1024----------- */
