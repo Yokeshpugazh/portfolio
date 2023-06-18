@@ -13,12 +13,14 @@
         <div class="container">
             <nav>
                 <div class="name"><h1><span>p</span>ortfolio</h1></div>
-                <ul>
+                <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark"onclick="closemenu()"></i>
                 </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <!-- ---------nav closed-------- -->
             <div class="head-text">
@@ -180,6 +182,16 @@
                     
                 }
                 </script> 
+                <script>
+                    var sidmeu = document.getElementById("sidemenu");
+                    
+                    function openmenu(){
+                        sidemeu.style.right="0";
+                    }
+                    function closemenu(){
+                        sidemeu.style.right="-200px";
+                    }
+                </script>
 
 </body>
 </html>

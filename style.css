@@ -18,6 +18,11 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
+nav .fa-solid{
+    color: white;
+    font-size: larger;
+    display: none;
+}
 /* ---------header---------- */
 .name{
     color: white;
@@ -324,6 +329,32 @@ form input,form textarea{
         margin-top: 99px;
         font-size: 41px;
     }
+    nav .fa-solid{
+        display: block;
+      
+    }
+    nav .fa-xmark{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    nav ul{
+        background-color: red;
+        top: 0;
+        right:-200px;
+        position: fixed;
+        width: 170px;
+        height: 100vh;
+        padding-top: 50px ;
+        z-index: 2;
+        transition-duration: 2s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+
     .web {
         font-size: 15px;
         font-weight: 600;
