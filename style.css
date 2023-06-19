@@ -326,7 +326,7 @@ form input,form textarea{
 @media screen and (min-width:320px) and (max-width:767px){
     .head-text h1 {
         color: white;
-        margin-top: 195px;
+        margin-top: 17rem;
         font-size: 41px;
     }
     nav .fa-solid{
@@ -359,7 +359,7 @@ form input,form textarea{
         font-size: 15px;
         font-weight: 600;
         position: relative;
-        top: 11rem;
+        top: 15rem;
     }
 
     #header{
