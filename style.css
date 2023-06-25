@@ -208,6 +208,10 @@ nav ul li a:hover::after{
     color: white;
     margin-bottom: 10px;
 }
+#experience p{
+    font-size: larger;
+    font-weight: 900;
+}
 .work i{
     color: blue;
     margin-top: 10px;
@@ -331,9 +335,10 @@ form input,form textarea{
     }
     nav .fa-solid{
         display: block;
+        cursor: pointer;
       
     }
-    nav .fa-xmark{
+    /* nav ul i{
         position: absolute;
         top: 25px;
         left: 25px;
@@ -341,10 +346,10 @@ form input,form textarea{
     }
     nav ul{
         background-color: red;
+        position: fixed;
         top: 0;
         right:-200px;
-        position: fixed;
-        width: 170px;
+        width: 200px;
         height: 100vh;
         padding-top: 50px ;
         z-index: 2;
@@ -353,7 +358,7 @@ form input,form textarea{
     nav ul li{
         display: block;
         margin: 25px;
-    }
+    } */
 
     .web {
         font-size: 15px;
